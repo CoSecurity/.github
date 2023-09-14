@@ -14,21 +14,3 @@ All of our models are scaled using AWS SageMaker, interacting via event generati
 
 Below is a representation of our architecture from the beginning of image ingestion to the training and prediction stages of the models:
 ![cosecurity-pipeline drawio-2](https://user-images.githubusercontent.com/29183537/185763035-30ec760b-2a41-444e-a370-e012ba1d8b30.png)
-
-### Project steps
-- [x] Project definition
-- [x] Cloud definition
-- [x] RTSP ingestion
-- [x] RTMP ingestion
-- [x] Object detection (person, vehicles, etc.)
-- [x] Recognition of people's faces on indoor cameras
-- [x] Detection of unusual areas on public roads
-- [x] Detection of agglomeration of people on public roads
-- [x] Detection of oncoming vehicles on public roads
-- [ ] Detection of falls on public roads
-- [ ] Detection of accident on public roads
-- [ ] Detection of clothing types
-- [ ] Detection of color
-- [ ] Forensic research
-- [ ] Sentiment analysis in indoor cameras
-
